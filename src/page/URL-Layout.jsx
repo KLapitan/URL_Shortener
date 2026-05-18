@@ -1,3 +1,4 @@
+import Hero from "../components/hero"
 import Footer from "../components/footer"
 
 const links = [
@@ -49,7 +50,7 @@ const Layout = () => {
 return(
 <>
 
-
+<Hero/>
 <Footer links={links}  socMedia={socialMedia}/>
 </>
 )
