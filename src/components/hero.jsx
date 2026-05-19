@@ -1,4 +1,5 @@
 import UrlInput from "./input";
+import Services from "./services";
 import Button from "./button";
 const Hero = () => {
 
@@ -20,7 +21,7 @@ return(
 
                 <p className=" border text-center text-NGray500 w-72">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
 
-                <Button classname="text-white bg-PBlue400 font-bold text-xl  py-4 rounded-full w-46 h-full">Get Started</Button>
+                <Button className="text-white bg-PBlue400 font-bold text-xl  py-4 rounded-full w-46 h-full">Get Started</Button>
             </div>
 
 
@@ -28,6 +29,8 @@ return(
     </section>
 
       <UrlInput/>
+      <Services/>
+      
 
 </main>
 )
