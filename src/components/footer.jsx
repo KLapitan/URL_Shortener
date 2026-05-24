@@ -1,7 +1,7 @@
  const Footer = ({links,socMedia}) => {
  return (
  <footer className="h-auto">
-    <section className="h-auto w-full bg-NGray950 flex flex-col justify-center items-center px-6 py-12 font-Poppins lg:flex-row lg:items-start lg:justify-evenly  ">
+    <section className="h-auto w-full bg-NGray950 flex flex-col justify-center items-center px-6 py-12 font-Poppins lg:flex-row lg:items-start lg:justify-evenly lg:gap-50 2xl:gap-0 ">
         
           <picture className="border w-45  " >
             <img src="/images/logo.svg" alt="logoShorlty"  className="invert brightness-0 w-full h-full"/>
