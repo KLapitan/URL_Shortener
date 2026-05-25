@@ -2,12 +2,12 @@ const Services = () => {
 
 
 return(
-<section className="h-350 w-full bg-NGray400/30 font-Poppins lg:h-screen ">
+<section className="h-350  w-full  bg-NGray400/30 font-Poppins sm:h-150 lg:h-200  lg:flex lg:flex-col lg:justify-center lg:items-center  lg:gap-4">
       <h2 className="text-3xl font-bold text-center lg:text-4xl">Advanced Statistics</h2>
       <p className="text-lg text-center w-auto p-4 text-NGray500 mb-15 lg:w-xl lg:place-self-center-safe">  Track how your links are performing across the web with our advanced statistics dashboard.</p>
 
         {/* brand , detailed ,customaizable */}
-        <div className="h-auto flex flex-col  md:flex-row justify-center items-center ">
+        <div className="h-auto  max-w-6xl  lg:place-self-center  flex flex-col  md:flex-row justify-center items-center  lg:w-full">
             {/* brand */}
             <div className="h-76 w-86 bg-white rounded-lg  lg:p-2 lg:w-96 ">
             

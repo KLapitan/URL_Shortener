@@ -6,24 +6,25 @@ const Hero = () => {
 return(
 
 <main className="h-auto">
-    <section className="h-auto  border-2 border-green-300" >
+    <section className="h-auto" >
+      {/* mid - large view flex row reverse */}
+      <div className="flex flex-col sm:flex-row-reverse max-w-auto   sm:h-90 lg:h-126 2xl:h-130">
 
         {/* image container */}
-          <div className="w-full  h-80   overflow-hidden ">
-          
-            <picture>
-              <img src="/images/illustration-working.svg" alt="herosectionlogo"  className=" p-1 w-full h-full  object-cover object-left ml-7"/>
-            </picture>
-          
+          <div className="max-w-2xl  h-80   overflow-hidden  sm:h-full   2xl:w-2xl ">
+              <picture>
+                <img src="/images/illustration-working.svg" alt="herosectionlogo"  className=" w-full h-full  object-cover object-left ml-7 lg:object-contain lg:overflow-hidden lg:ml-20 lg:-mt-3 lg:scale-100" />
+              </picture>
+            
           </div>
-            <div className="w-full font-Poppins p-4 flex flex-col items-center gap-4 border">
-                <h2 className="text-center text-4xl font-bold tracking-tight">More than just shorter links</h2>
+            <div className="max-w-2xl font-Poppins p-4 flex flex-col items-center  gap-4  sm:items-start sm:justify-center  lg:w-xl 2xl:w-2xl">
+                <h2 className="text-center text-4xl font-bold tracking-tight sm:text-left lg:text-7xl lg:-ml-14 2xl:-ml-8">More than just shorter links</h2>
 
-                <p className=" border text-center text-NGray500 w-72">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+                <p className="text-center text-NGray500 w-72 sm:text-left lg:w-140 lg:text-xl lg:-ml-14 2xl:-ml-8">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
 
-                <Button className="text-white bg-PBlue400 font-bold text-xl  py-4 rounded-full w-46 h-full">Get Started</Button>
+                <Button className="text-white bg-PBlue400 font-bold text-xl  py-4 rounded-full w-46 h-full sm:h-15 lg:h-12 lg:py-2 lg:w-42 lg:text-sm lg:-ml-14 2xl:-ml-8">Get Started</Button>
             </div>
-
+          </div>
 
 
     </section>

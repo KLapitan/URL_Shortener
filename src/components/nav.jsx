@@ -24,11 +24,11 @@ useState(() => {
 
 const openModal = () => { setIsOpen(prev => !prev)};
 return(
-<nav className="w-full  flex justify-center border ">
-  <section className="max-w-7xl w-full  h-30 flex flex-row justify-between  ">
+<nav className="w-full  flex justify-center  ">
+  <section className="max-w-6xl w-full  h-30 flex flex-row justify-between  p-1 ">
 
             {/* leftside   */}
-          <div className="flex md:w-auto w-full justify-between md:justify-normal items-center md:gap-12  p-3">
+          <div className="flex md:w-auto w-full justify-between md:justify-normal items-center md:gap-12 p-1">
 
       <div className="w-40 h-10 ">
             <picture>

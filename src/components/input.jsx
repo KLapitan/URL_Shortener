@@ -19,13 +19,14 @@ const UrlInput = () => {
             lg:bg-[url('/images/bg-shorten-desktop.svg')]
             bg-no-repeat
             bg-top-right
-            bg-size-[110%]
+            bg-size-[100%]
             p-6
-            lg:p-10
+            lg:p-16
+            2xl:p-12
             flex flex-col
             lg:flex-row
             lg:items-center
-            gap-4
+            gap-6
             
           "
         >
@@ -38,14 +39,14 @@ const UrlInput = () => {
               h-14
               rounded-lg
               px-6
-              lg:h-18
+              lg:h-14
               lg:px-8
               outline-none
               bg-white
             "
           />
 
-          <Button className="bg-PBlue400 h-14 px-2 lg:px-8 lg:h-18 rounded-lg text-white font-bold whitespace-nowrap">
+          <Button className="bg-PBlue400 h-14 px-2 lg:px-10 lg:h-14 rounded-lg text-white font-bold whitespace-nowrap">
             Shorten It!
           </Button>
 
