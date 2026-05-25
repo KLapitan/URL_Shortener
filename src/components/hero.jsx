@@ -1,11 +1,12 @@
 import UrlInput from "./input";
 import Services from "./services";
+import Ads from "./ads";
 import Button from "./button";
 const Hero = () => {
 
 return(
 
-<main className="h-auto">
+<main className="h-auto ">
     <section className="h-auto" >
       {/* mid - large view flex row reverse */}
       <div className="flex flex-col sm:flex-row-reverse max-w-auto   sm:h-90 lg:h-126 2xl:h-130">
@@ -31,7 +32,7 @@ return(
 
       <UrlInput/>
       <Services/>
-      
+      <Ads/>
 
 </main>
 )

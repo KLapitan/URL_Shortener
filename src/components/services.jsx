@@ -2,12 +2,12 @@ const Services = () => {
 
 
 return(
-<section className="h-350  w-full  bg-NGray400/30 font-Poppins sm:h-150 lg:h-200  lg:flex lg:flex-col lg:justify-center lg:items-center  lg:gap-4">
+<section className="h-350  w-full  bg-NGray400/30 font-Poppins sm:h-auto  lg:h-200  lg:flex lg:flex-col lg:justify-center lg:items-center  lg:gap-4 border sm:px-4 md:px-0">
       <h2 className="text-3xl font-bold text-center lg:text-4xl">Advanced Statistics</h2>
       <p className="text-lg text-center w-auto p-4 text-NGray500 mb-15 lg:w-xl lg:place-self-center-safe">  Track how your links are performing across the web with our advanced statistics dashboard.</p>
 
         {/* brand , detailed ,customaizable */}
-        <div className="h-auto  max-w-6xl  lg:place-self-center  flex flex-col  md:flex-row justify-center items-center  lg:w-full">
+        <div className="h-auto  max-w-6xl  lg:place-self-center  flex flex-col  md:flex-row justify-center items-center  lg:w-full sm:mb-20 ">
             {/* brand */}
             <div className="h-76 w-86 bg-white rounded-lg  lg:p-2 lg:w-96 ">
             
@@ -22,7 +22,7 @@ return(
             </div>
         
           {/* connector */}
-          <div className=" w-2 h-20 place-self-center bg-PBlue400 sm:w-20 sm:h-2 "></div>
+          <div className=" w-2 h-20 place-self-center bg-PBlue400 sm:w-6  lg:w-10 sm:h-2 "></div>
        
            {/*Detailed Reords  */}
        <div className="h-76 w-86 bg-white rounded-lg lg:mt-15 lg:p-2 lg:w-96">
@@ -37,7 +37,7 @@ return(
                   <p className="text-center text-lg p-5  tracking-tight text-NGray500 overflow-hidden h-40 lg:text-left"> Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
             </div>
                  {/* connector */}
-          <div className=" w-2 h-20 place-self-center bg-PBlue400  md:w-20 md:h-2  "></div>
+          <div className=" w-2 h-20 place-self-center bg-PBlue400  sm:w-6 lg:w-10 md:h-2  "></div>
 
           {/* Fully Customizable */}
           <div className="h-76 w-86 bg-white rounded-lg lg:mt-36 lg:p-2 lg:w-96 ">
