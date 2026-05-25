@@ -1,7 +1,8 @@
+import Nav from "../components/nav"
 import Hero from "../components/hero"
 import Footer from "../components/footer"
 
-const links = [
+const flinks = [
 {
   id:0,
   linkName:"Features",
@@ -21,6 +22,15 @@ const links = [
   linkName:"Company",
   sublinks:["About" , "Our Team" , "Careers","Contact"]
 }]
+
+
+const nLinks = [
+
+{id:0,name:"Features"},
+{id:1,name:"Pricing"},
+{id:2,name:"Resources"}
+
+]
 
 const socialMedia = [
 {
@@ -49,9 +59,9 @@ const socialMedia = [
 const Layout = () => {
 return(
 <>
-
+<Nav links={nLinks}  socMedia={socialMedia}/>
 <Hero/>
-<Footer links={links}  socMedia={socialMedia}/>
+<Footer links={flinks}  socMedia={socialMedia}/>
 </>
 )
 }
