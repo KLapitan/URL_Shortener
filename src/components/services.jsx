@@ -43,7 +43,7 @@ return(
           <div className="h-76 w-86 bg-white rounded-lg lg:mt-36 lg:p-2 lg:w-96 ">
             
             {/* image-logo */}
-            <div c className="border w-21 h-21 -mt-10 ml-32 rounded-full  bg-NGray900 flex items-center justify-center p-3 lg:ml-10 lg:transition-all lg:duration-300 lg:ease-in ">
+            <div  className="border w-21 h-21 -mt-10 ml-32 rounded-full  bg-NGray900 flex items-center justify-center p-3 lg:ml-10 lg:transition-all lg:duration-300 lg:ease-in ">
                 <picture>
                 <img src="/images/icon-fully-customizable.svg" alt="fully-customizable " className="w-10 h-10 place-self-center" />
                 </picture>
